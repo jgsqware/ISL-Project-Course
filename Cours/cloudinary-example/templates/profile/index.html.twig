@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block ptitle %}Profiles{% endblock %}
+{% block body %}
+    <section class="profiles">
+        {% for profile in profiles %}
+
+            <section>
+                <h2>{{ profile.name }}</h2>
+                <img src="{{ profile.imageUrl }}" />
+            </section>
+            <hr/>
+
+        {% endfor %}
+    </section>
+{% endblock %}
