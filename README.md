@@ -1,6 +1,10 @@
 # Cours Projet 3eme ISL
 
 
+## Example index
+
+- [Cloudinary example](Cours/cloudinary-example/README.md)
+
 ## Tooling
 - [Git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet)
 
