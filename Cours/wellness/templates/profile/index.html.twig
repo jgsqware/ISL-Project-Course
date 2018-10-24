@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block ptitle %}Profiles{% endblock %}
+{% block body %}
+    <section class="profiles">
+        {% for profile in profiles %}
+
+            <section>
+                <h2>{{ profile.name }}</h2>
+                <img src="{{ profile.imageUrl }}" />
+                {# <div class="content">
+                    <a href="{{ path('service_show', {'id':service.id}) }}" class="btn btn-primary">Plus d'infos...</a>
+                    <hr color="red"/>
+                </div>  #}
+            </section>
+            <hr/>
+
+        {% endfor %}
+    </section>
+{% endblock %}

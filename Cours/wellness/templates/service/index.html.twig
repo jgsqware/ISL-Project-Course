@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block ptitle %}Categories de services{% endblock %}
+{% block body %}
+    <section class="services">
+        {#{% for service in services %}#}
+
+            {#<section>#}
+                {#<h2>{{ service.name }}</h2>#}
+                {#<h5>Description : {{ service.description}}</h5>#}
+
+                {#<div class="content">#}
+                    {#<a href="{{ path('service_show', {'id':service.id}) }}" class="btn btn-primary">Plus d'infos...</a>#}
+                    {#<hr color="red"/>#}
+                {#</div>#}
+            {#</section>#}
+            {#<hr/>#}
+
+        {#{% endfor %}#}
+    </section>
+{% endblock %}

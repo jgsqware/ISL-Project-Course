@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+<h1>Adding a new profile</h1>
+
+{{ form_start(form) }}
+    {# ... #}
+    {{ form_row(form.name) }}
+    {{ form_row(form.image_url) }}
+    <input type="submit" class="btn" value="Create" />
+{{ form_end(form) }}
+{% endblock %}

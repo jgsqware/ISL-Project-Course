@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block ptitle %}Categories de services{% endblock %}
+
+{% block body %}
+    <section class="services">
+            <section>
+                <h2>{{ service.name }}</h2>
+                <h5>Description : {{ service.description}}</h5>
+            </section>
+    </section>
+{% endblock %}
